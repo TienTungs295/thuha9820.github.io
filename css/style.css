@@ -1512,7 +1512,8 @@ img {
     padding-bottom: 20px;
 }
 
-.logo {
+.logo img {
+    height: 50px;
 }
 
 .top-header-icon {
@@ -2727,6 +2728,7 @@ img {
 .team-img img {
     height: 310px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .team-title {
@@ -2784,7 +2786,7 @@ img {
 }
 
 .testimonial-content {
-    height: 350px;
+    min-height: 390px;
     background-color: #fff;
     border-radius: 8px;
     border: 1px solid #dedbe3;
@@ -4455,4 +4457,10 @@ img {
 
 .testimonial-carousel .owl-carousel .owl-item img{
     position: inherit;
+}
+.owl-carousel .owl-item img {
+    height: 100%;
+}
+.ft-img img{
+    height: 170px;
 }
